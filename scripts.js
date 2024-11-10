@@ -13,3 +13,16 @@ const products = [
   { product: 'coffee', price: 10 },
   { product: 'tea', price: '' },
 ]
+
+// Ecercises
+provinces.forEach(item=>console.log(item))
+//--------------------------------------------------------------------------
+const upperProvinces = provinces.map(item => item.toUpperCase())
+console.log(upperProvinces)
+//--------------------------------------------------------------------------
+const itemLegnth = provinces.map(item => item.length)
+console.log(itemLegnth)
+//--------------------------------------------------------------------------
+console.log(provinces.sort())
+//--------------------------------------------------------------------------
+// provinces.filter()
